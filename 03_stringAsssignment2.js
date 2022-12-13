@@ -1,0 +1,13 @@
+var akash="   Hey you are doing good, keep it up   ";
+console.log(akash);
+console.log("1.Length of given String:" ,akash.length);
+var resultTrim=akash.trim();
+console.log("2.Sentance after trim:",resultTrim);
+console.log("3.Length Of string after charcter:",resultTrim.length);
+var lengthTotal=resultTrim.length;
+console.log("4.character of first index:",akash.charAt(3),".character of last index:",akash.charAt(lengthTotal-3));
+console.log("5.index of substring good:",akash.search("good"));
+console.log("6.using substring function print the substring start index from 21:",akash.substring(21));
+console.log("7.using substring function print the slice start index from 21:",akash.slice(21));
+console.log(`8.check is string end with"up" after step 3:`,akash.includes("up"));
+console.log(`9.check is string start with"Hey" after trim:`,akash.includes("Hey"));
