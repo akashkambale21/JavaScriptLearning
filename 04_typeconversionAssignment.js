@@ -1,0 +1,14 @@
+var a=(0==` `);
+console.log("(0==`` is )",a);
+var b=(0==`0`);
+console.log("(0==`0` is )",b);
+var c=(0==false);
+console.log("(0==false is )",c);
+var d=(null==undefined);
+console.log("(null==undefined is )",d);
+var e=(1==[1]);
+console.log("(1==[1] is )",e);
+var f=(1==true);
+console.log("(1==true is )",f);
+var g=(1==`1`);
+console.log("(1==`1` is )",g);
